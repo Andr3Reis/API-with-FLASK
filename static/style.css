@@ -1,24 +1,74 @@
 body {
-    background-color: #f8f9fa;
+    background-image: url('/static/Biblioteca.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
 }
 
 h1 {
-    color: #343a40;
-}
-
-.container {
-    max-width: 600px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .list-group-item {
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.8);
     border-color: #dee2e6;
+    color: #000;
 }
 
 .btn {
+    color: #ffffff;
     margin-left: 5px;
+    font-weight: bold;
+    border-radius: 5px;
 }
 
-.text-right {
-    text-align: right;
+.btn-primary {
+    background-color: #2e5c5c;
+    border-color: #2e5c5c;
+}
+
+.btn-primary:hover {
+    background-color: #1e4a4a;
+    border-color: #1e4a4a;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.btn-warning {
+    background-color: #5f7884;
+    border-color: #5f7884;
+}
+
+.btn-danger {
+    background-color: #8b575c;
+    border-color: #8b575c;
+}
+
+.btn-success {
+    background-color: #3c6e71;
+    border-color: #3c6e71;
+}
+
+.btn-success:hover {
+    background-color: #1e4a4a;
+    border-color: #1e4a4a;
+}
+
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 700px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
 }
